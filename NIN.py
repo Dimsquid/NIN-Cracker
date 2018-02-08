@@ -21,7 +21,7 @@ print("by Neoxidine".rjust(83));
 
 print("\n\n\n Just getting stuff ready \n\n\n")
 
-sleep(0.5)
+sleep(0.2)
 
 toolbar_width = 81
 
@@ -31,7 +31,7 @@ sys.stdout.flush()
 sys.stdout.write("\b" * (toolbar_width+1)) # return to start of line, after '['
 
 for i in xrange(toolbar_width):
-    time.sleep(0.1) # do real work here
+    time.sleep(0.08) # do real work here
     # update the bar
     sys.stdout.write("-")
     sys.stdout.flush()
@@ -79,6 +79,68 @@ print("Few seconds and you will have your list. Should be saved in root/NINCrack
         
 filename = "NINCrack.txt"
 if (month == 1 and year == 1):
+#     file = open((filename), "w")
+#     for i in range(1000000):
+#         file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
+#         file.write("PE"+str('{:d}'.format(i).zfill(6))+"B\n")
+#         file.write("PE"+str('{:d}'.format(i).zfill(6))+"C\n")
+#         file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
+# file.close()
+
+# What I know for 1994
+# September 1994 - December 1994
+elif (month == 9 and year == 5):
+    file = open((filename), "w")
+    for i in range(1000000):
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"A\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"B\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"C\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"D\n")
+file.close()
+
+elif (month == 10 and year == 5):
+    file = open((filename), "w")
+    for i in range(1000000):
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"A\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"B\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"C\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"D\n")
+file.close()
+
+elif (month == 11 and year == 5):
+    file = open((filename), "w")
+    for i in range(1000000):
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"A\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"B\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"C\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"D\n")
+file.close()
+
+elif (month == 12 and year == 5):
+    file = open((filename), "w")
+    for i in range(1000000):
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"A\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"B\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"C\n")
+        file.write("JZ"+str('{:d}'.format(i).zfill(6))+"D\n")
+file.close()
+
+# What I know for 1995
+# June 1995
+
+elif (month == 6 and year == 6):
+    file = open((filename), "w")
+    for i in range(1000000):
+        file.write("PA"+str('{:d}'.format(i).zfill(6))+"A\n")
+        file.write("PA"+str('{:d}'.format(i).zfill(6))+"B\n")
+        file.write("PA"+str('{:d}'.format(i).zfill(6))+"C\n")
+        file.write("PA"+str('{:d}'.format(i).zfill(6))+"D\n")
+file.close()
+
+# What I know for 1998 - 1999
+# August 1998 - Jan 1999
+
+elif (month == 8 and year == 9):
     file = open((filename), "w")
     for i in range(1000000):
         file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
@@ -87,7 +149,7 @@ if (month == 1 and year == 1):
         file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
 file.close()
 
-elif (month == 1 and year == 2):
+elif (month == 10 and year == 9):
     file = open((filename), "w")
     for i in range(1000000):
         file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
@@ -96,7 +158,7 @@ elif (month == 1 and year == 2):
         file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
 file.close()
 
-elif (month == 1 and year == 3):
+elif (month == 11 and year == 9):
     file = open((filename), "w")
     for i in range(1000000):
         file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
@@ -105,34 +167,7 @@ elif (month == 1 and year == 3):
         file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
 file.close()
 
-elif (month == 1 and year == 4):
-    file = open((filename), "w")
-    for i in range(1000000):
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"B\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"C\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
-file.close()
-
-elif (month == 1 and year == 5):
-    file = open((filename), "w")
-    for i in range(1000000):
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"B\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"C\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
-file.close()
-
-elif (month == 1 and year == 6):
-    file = open((filename), "w")
-    for i in range(1000000):
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"B\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"C\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
-file.close()
-
-elif (month == 1 and year == 7):
+elif (month == 12 and year == 9):
     file = open((filename), "w")
     for i in range(1000000):
         file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
@@ -150,42 +185,16 @@ elif (month == 1 and year == 10):
         file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
 file.close()
 
-elif (month == 1 and year == 8):
-    file = open((filename), "w")
-    for i in range(1000000):
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"B\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"C\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
-file.close()
+# June 1999
 
-elif (month == 1 and year == 9):
+elif (month == 6 and year == 10):
     file = open((filename), "w")
     for i in range(1000000):
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"B\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"C\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
+        file.write("PX"+str('{:d}'.format(i).zfill(6))+"A\n")
+        file.write("PX"+str('{:d}'.format(i).zfill(6))+"B\n")
+        file.write("PX"+str('{:d}'.format(i).zfill(6))+"C\n")
+        file.write("PX"+str('{:d}'.format(i).zfill(6))+"D\n")
 file.close()
-
-elif (month == 1 and year == 10):
-    file = open((filename), "w")
-    for i in range(1000000):
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"B\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"C\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
-file.close()
-
-elif (month == 1 and year == 11):
-    file = open((filename), "w")
-    for i in range(1000000):
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"A\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"B\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"C\n")
-        file.write("PE"+str('{:d}'.format(i).zfill(6))+"D\n")
-file.close()
-    
 
 
 
